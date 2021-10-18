@@ -528,7 +528,7 @@ function HomePage() {
               </li>
               <li>
                 <Link to="/shop" className="sf-with-ul">
-                  Shellee 's Spectacles Shop 12
+                  Shellee 's Spectacles Shop
                 </Link>
               </li>
               <li>
