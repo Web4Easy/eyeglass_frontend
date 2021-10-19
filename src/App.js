@@ -8,9 +8,12 @@ import AboutPage from "./containers/aboutpage";
 import CartPage from "./containers/cartpage";
 import ContactPage from "./containers/contactpage";
 import FramePage from "./containers/framespage";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
+      <Navbar />
       <Switch>
         <Route component={HomePage} path="/" exact />
         <Route component={LoginPage} path="/login" exact />
@@ -20,6 +23,7 @@ function App() {
         <Route component={ContactPage} path="/contact" exact />
         <Route component={FramePage} path="/frames" exact />
       </Switch>
+      <Footer />
     </Router>
   );
 }
